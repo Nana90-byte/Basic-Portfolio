@@ -1,5 +1,5 @@
 #teal-background {
-    background-color: #4aaaa5; color: #ffffff; width: 300px;
+    background-color: #4aaaa5; color: #ffffff; width: 300px; margin-left: 90px; margin-top: auto;
 }
 
 #teal-tittle {
@@ -15,8 +15,10 @@ header {
 }
 
 div {
-    background-color: #ffffff; border-color: #ffffff; width: 400px; border: 30px; padding: 50px; margin: 20px
+    background-color: #ffffff; border-color: #dddddd; width: 1046px; border: 30px; padding: 50px; margin: 100px
 }
+
+
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -29,6 +31,12 @@ img {
 nav {
     float: right; bottom: 200px
 }
-p {
-    float: right
+.box1 {
+    height: 100px; box-sizing: border-box;
+}
+body {
+    background-color: #777777
+}
+nav {
+    margin-right: 200px;
 }
