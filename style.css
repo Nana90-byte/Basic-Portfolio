@@ -1,5 +1,9 @@
 #teal-background {
-    background-color: #4aaaa5; color: #ffffff; width: 300px; margin-left: 90px; margin-top: auto;
+    background-color: #4aaaa5; color: #ffffff; width: 300px; margin-left: 90px; height: 100px; text-align: center;
+}
+
+.box1 {
+    height: 100px; box-sizing: border-box; 
 }
 
 #teal-tittle {
@@ -15,10 +19,15 @@ header {
 }
 
 div {
-    background-color: #ffffff; border-color: #dddddd; width: 1046px; border: 30px; padding: 50px; margin: 100px
+    background-color: #ffffff; border-color: #dddddd; width: 1035px; border: 30px; padding: 50px; margin: 100px; margin-top: 50px;
 }
 
-
+.my-pic {
+    float: left; margin-right: 10px; margin-top: 10px;
+}
+p {
+    line-height: 35px;
+}
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -31,12 +40,13 @@ img {
 nav {
     float: right; bottom: 200px
 }
-.box1 {
-    height: 100px; box-sizing: border-box;
-}
+
 body {
-    background-color: #777777
+    background-color: lightgrey
 }
 nav {
     margin-right: 200px;
+}
+footer {
+   background-color: #777777; width: auto; border-bottom: auto; border-top-color: #4aaaa5; padding: 20px; height: 50px; margin: auto
 }
